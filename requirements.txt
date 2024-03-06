@@ -40,4 +40,3 @@ apscheduler
 pyshorteners
 pyromod
 colorama
-openai
