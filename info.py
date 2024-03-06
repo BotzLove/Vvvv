@@ -33,6 +33,10 @@ STREAM_SITE = (environ.get('STREAM_SITE', 'ziplinker.net'))
 STREAM_API = (environ.get('STREAM_API', 'ae0832f39e24094a0661626a792e6a2b8880e310'))
 STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/HowToOpenLinkHP/69'))
 
+# ai 
+OPENAI_API_KEY = environ.get('OPENAI_API_KEY', "")
+
+
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5977931010').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '').split()]
